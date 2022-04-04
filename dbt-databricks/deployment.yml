@@ -1,0 +1,7 @@
+jobs:
+ - name: every3minutes
+   targetName: dev 
+   schedule: '*/3 * * * *'
+   steps:
+     - name: run models
+       command: dbt run --models example.calls_cln_ext3
