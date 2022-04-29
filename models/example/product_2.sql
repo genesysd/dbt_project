@@ -18,4 +18,4 @@ SELECT
     charge_type_c AS charge_type,
     billing_ramp_policy_c AS billling_ramp_policy,
     seasonal_licensing_eligible_c AS seasonal_licensing_eligible_flag
-FROM product_2
+FROM salesforce_raw.product_2

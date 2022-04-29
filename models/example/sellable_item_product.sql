@@ -16,4 +16,4 @@ SELECT
     unbilled_ar_account_c AS unbilled_ar_account,
     status_c AS sellable_item_product_status,
     availability_c AS sellable_item_product_availability
-FROM SELLABLE_ITEM_PRODUCT_C
+FROM salesforce_raw.sellable_item_product
