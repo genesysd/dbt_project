@@ -8,4 +8,4 @@ SELECT
     id as userId, 
     username as userName, 
     company_name as companyName      
-FROM {{ source('salesforce_sandbox', 'user') }}
+FROM {{ source('salesforce_sandbox', 'user') }} 

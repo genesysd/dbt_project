@@ -18,9 +18,13 @@ models:
         description: "The primary key for this table"
         tests:
           - unique
-          - not_null
+          - not_null  
 
 sources:
   - name: salesforce_sandbox
     tables:
       - name: user
+  
+  - name: netsuite_suiteanalytics_2
+    tables:
+      - name: calls_test
