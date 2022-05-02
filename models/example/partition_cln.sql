@@ -1,7 +1,7 @@
 {{ config(
     materialized='table',
     location_root='dbfs:/user/hive/warehouse/',
-    partition_by=['call_date_c'],
+    partition_by=['call_date_c']
 )}}
 
 
