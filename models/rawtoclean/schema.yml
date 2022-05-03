@@ -28,3 +28,4 @@ sources:
   - name: netsuite_suiteanalytics_2
     tables:
       - name: calls_test
+

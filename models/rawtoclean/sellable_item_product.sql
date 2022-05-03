@@ -1,6 +1,7 @@
 {{ config(
-    materialized='table',
+    materialized='view',
     file_format='delta',
+    alias= 'sellable_item_product',
     location_root='dbfs:/user/hive/warehouse/') 
 }}
 
@@ -16,4 +17,4 @@ SELECT
     unbilled_ar_account_c AS unbilled_ar_account,
     status_c AS sellable_item_product_status,
     availability_c AS sellable_item_product_availability
-FROM salesforce_raw.sellable_item_product
+FROM salesforce_raw.sellable_item_product_c
