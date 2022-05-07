@@ -3,7 +3,7 @@ name: Sync S3 Bucket
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   deploy:
