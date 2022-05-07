@@ -3,7 +3,7 @@ name: S3 Sync Github
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
