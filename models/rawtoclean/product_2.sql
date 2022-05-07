@@ -1,5 +1,5 @@
 {{ config(
-    materialized='view',
+    materialized='table',
     file_format='delta',
     alias='product',
     location_root='dbfs:/user/hive/warehouse/') 
