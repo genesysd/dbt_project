@@ -1,0 +1,10 @@
+dbt-databricks:
+  outputs:
+    dev:
+      host: HOST
+      http_path: HTTP_PATH
+      schema: SCHEMA
+      threads: 1
+      token: TOKEN 
+      type: databricks
+  target: dev
