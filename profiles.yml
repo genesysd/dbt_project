@@ -1,10 +1,10 @@
 dbt-databricks:
   outputs:
     dev:
-      host: HOST
-      http_path: HTTP_PATH
-      schema: SCHEMA
+      host: dbc-48574393-759b.cloud.databricks.com
+      http_path: sql/protocolv1/o/4119582262816558/0322-165237-tr8dc9of
+      schema: dbt
       threads: 1
-      token: TOKEN 
+      token: dapie81dea68b4914166af801cb72a230068 
       type: databricks
   target: dev
