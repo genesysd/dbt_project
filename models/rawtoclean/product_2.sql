@@ -2,7 +2,7 @@
     materialized='table',
     file_format='delta',
     alias='product',
-    location_root='dbfs:/user/hive/warehouse/') 
+    location_root='s3://gen-salesforce-dev-503733548004-cln/salesforce_cln/') 
 }}
 
 SELECT
